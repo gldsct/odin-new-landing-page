@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -6,4 +8,27 @@ html {
     box-sizing: inherit;
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 16px 240px;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+
+    display: flex;
+    gap: 24px;
 }
