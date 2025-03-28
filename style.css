@@ -11,9 +11,11 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
+/* Header Styles */
+
 .header {
     background-color: #1F2937;
-    padding: 16px 240px;
+    padding: 16px 360px;
 
     display: flex;
     align-items: center;
@@ -31,4 +33,45 @@ html {
 
     display: flex;
     gap: 24px;
+}
+
+/* Hero Styles */
+
+.hero {
+    background-color: #1F2937;
+    padding: 64px 360px 80px;
+
+    display: flex;
+    gap: 64px;
+}
+
+.hero-main-content {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-second-content, .hero-image, .hero-button {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-button {
+    border: none;
+    margin-top: 8px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-weight: bold;
+}
+
+.hero-image {
+    background-color: #6D747D;
+
+    width: 500px;
+    flex: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
