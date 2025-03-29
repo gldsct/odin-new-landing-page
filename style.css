@@ -111,3 +111,25 @@ html {
     color: #1F2937;
     text-align: center;
 }
+
+/* Quote Styles */
+
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 80px;
+    padding: 96px 635px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 36px;
+}
